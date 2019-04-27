@@ -18,3 +18,30 @@ git remote add origin "url servidor"
 
 Enviar commits al servidor
 git push origin "Nombre del branch"
+
+Clonar repositorio
+git clone "path de la carpeta | url del servidor"
+
+Crear branch
+git checkout -b "Nombre del branch"
+
+Cambiarse de branch
+git checkout "Nombre del branch"
+
+Eliminar branch
+git branch -d "Nombre del branch"
+
+Descargar cambios 
+git pull
+
+Fusionar cambios 
+git merge "Nombre de branch"
+
+Comparar branch
+git diff "Nombre del branch" "target_branch"
+
+Estado
+git estatus
+
+Log
+git log
